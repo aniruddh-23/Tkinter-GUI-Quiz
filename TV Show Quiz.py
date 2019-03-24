@@ -13,7 +13,7 @@ class quiz :
         master.title("TV Show Name Quiz")
         master.minsize("300", "80")
         self.score = 0
-        self.showList = ["American Gods", "Brooklyn Nine Nine", "The Other Two", "CBS This Morning","Stranger Things","Black Mirror","The Crown","GLOW","House of Cards","Orange Is the New Black","13 Reasons Why","Jessica Jones"]
+        self.showList = ['the umbrella academy', 'the walking dead',' beverly hills, 90210','the order','riverdale','true detective','the widow','northern rescue','doom patrol','shameless','grey Anatomy','the orville',' workin moms','brooklyn nine-nine','dirty john','arrow','supernatural', 'star trek: discovery','sex education','whiskey cavalier','gotham','vikings',' the office','the big bang theory','peaky blinders','the flash','suits','the good doctor','good girls',"American Gods", "Brooklyn Nine Nine", "The Other Two", "CBS This Morning","Stranger Things","Black Mirror","The Crown","GLOW","House of Cards","Orange Is the New Black","13 Reasons Why","Jessica Jones"]
         self.question_number = 10
         self.ans = True
         self.show_name = self.selectShow()
